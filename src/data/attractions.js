@@ -15,7 +15,7 @@ export const attractions = [
     description:
       '故宫博物院位于北京市中心，是中国明清两代的皇家宫殿，旧称紫禁城。故宫博物院建立于1925年，是中国最大的古代文化艺术博物馆，收藏有大量古代艺术珍品，是中国古代建筑艺术的精华。',
     highlights: ['世界现存规模最大的古建筑群', '馆藏文物180余万件', '三大殿气势恢宏', '珍宝馆与钟表馆不容错过'],
-    images: ['/images/gugong.svg'],
+    images: ['data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6I2IzNGQwYSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNkNDcwMWYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxjaXJjbGUgY3g9IjQwMCIgY3k9IjE4MCIgcj0iODAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xNSkiLz4KICA8dGV4dCB4PSI0MDAiIHk9IjE4NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSI2NCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjM1KSI+JiN4MUYzRDQ7PC90ZXh0PgogIDx0ZXh0IHg9IjQwMCIgeT0iMzEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIj4/PzwvdGV4dD4KICA8dGV4dCB4PSI0MDAiIHk9IjM2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjcpIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+JiN4NEUyRDsmI3g1NkZEOyYjeDg0NTc7JiN4NTQwRDsmI3g2NjZGOyYjeDcwQjk7PC90ZXh0Pgo8L3N2Zz4='],
     transportation: {
       airport: { name: '北京首都国际机场', distance: '30公里', duration: '约50分钟车程' },
       train: { nearest_station: '北京站', distance: '3公里', duration: '约15分钟车程' },
@@ -50,7 +50,7 @@ export const attractions = [
     description:
       '八达岭长城是明长城中保存最完好、最具代表性的一段，位于北京市延庆区。它是万里长城的精华所在，地势险要，城关坚固，被誉为"不到长城非好汉"的打卡胜地。',
     highlights: ['明长城精华段', '好汉坡打卡', '缆车俯瞰全景', '长城博物馆'],
-    images: ['/images/badaling.svg'],
+    images: ['data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzRhNjc0MSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM2YjhmNWUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxjaXJjbGUgY3g9IjQwMCIgY3k9IjE4MCIgcj0iODAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xNSkiLz4KICA8dGV4dCB4PSI0MDAiIHk9IjE4NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSI2NCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjM1KSI+JiN4MUYzRDQ7PC90ZXh0PgogIDx0ZXh0IHg9IjQwMCIgeT0iMzEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIj4/Pz8/PzwvdGV4dD4KICA8dGV4dCB4PSI0MDAiIHk9IjM2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjcpIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+JiN4NEUyRDsmI3g1NkZEOyYjeDg0NTc7JiN4NTQwRDsmI3g2NjZGOyYjeDcwQjk7PC90ZXh0Pgo8L3N2Zz4='],
     transportation: {
       airport: { name: '北京首都国际机场', distance: '70公里', duration: '约90分钟车程' },
       train: { nearest_station: '八达岭站（S2线）', distance: '步行可达', duration: '约80分钟从市区出发' },
@@ -85,7 +85,7 @@ export const attractions = [
     description:
       '西湖位于浙江省杭州市，是中国十大风景名胜之一，也是世界文化遗产。西湖三面环山，一面临城，湖光山色美不胜收。"欲把西湖比西子，淡妆浓抹总相宜"，苏东坡的诗句道尽了西湖之美。',
     highlights: ['断桥残雪', '苏堤春晓', '三潭印月', '雷峰夕照', '曲院风荷'],
-    images: ['/images/xihu.svg'],
+    images: ['data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzFhNmI3YSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyZTljYjUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxjaXJjbGUgY3g9IjQwMCIgY3k9IjE4MCIgcj0iODAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xNSkiLz4KICA8dGV4dCB4PSI0MDAiIHk9IjE4NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSI2NCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjM1KSI+JiN4MUYzRDQ7PC90ZXh0PgogIDx0ZXh0IHg9IjQwMCIgeT0iMzEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIj4/PzwvdGV4dD4KICA8dGV4dCB4PSI0MDAiIHk9IjM2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjcpIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+JiN4NEUyRDsmI3g1NkZEOyYjeDg0NTc7JiN4NTQwRDsmI3g2NjZGOyYjeDcwQjk7PC90ZXh0Pgo8L3N2Zz4='],
     transportation: {
       airport: { name: '杭州萧山国际机场', distance: '30公里', duration: '约50分钟' },
       train: { nearest_station: '杭州东站/杭州站', distance: '市区内', duration: '地铁可达' },
@@ -120,7 +120,7 @@ export const attractions = [
     description:
       '黄山位于安徽省黄山市，是中国十大名山之一，世界文化与自然双重遗产。以奇松、怪石、云海、温泉、冬雪五绝著称于世，自古有"五岳归来不看山，黄山归来不看岳"的美誉。',
     highlights: ['迎客松', '光明顶日出', '西海大峡谷', '天都峰', '云海奇观'],
-    images: ['/images/huangshan.svg'],
+    images: ['data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzJkNTAxNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM1YThhMmEiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxjaXJjbGUgY3g9IjQwMCIgY3k9IjE4MCIgcj0iODAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xNSkiLz4KICA8dGV4dCB4PSI0MDAiIHk9IjE4NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSI2NCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjM1KSI+JiN4MUYzRDQ7PC90ZXh0PgogIDx0ZXh0IHg9IjQwMCIgeT0iMzEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIj4/PzwvdGV4dD4KICA8dGV4dCB4PSI0MDAiIHk9IjM2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjcpIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+JiN4NEUyRDsmI3g1NkZEOyYjeDg0NTc7JiN4NTQwRDsmI3g2NjZGOyYjeDcwQjk7PC90ZXh0Pgo8L3N2Zz4='],
     transportation: {
       airport: { name: '黄山屯溪国际机场', distance: '60公里', duration: '约70分钟车程' },
       train: { nearest_station: '黄山北站', distance: '50公里', duration: '约60分钟车程' },
@@ -155,7 +155,7 @@ export const attractions = [
     description:
       '张家界国家森林公园位于湖南省张家界市，是中国第一个国家森林公园。以独特的石英砂岩峰林地貌著称，三千奇峰拔地而起，被誉为"缩小的仙境，放大的盆景"，《阿凡达》曾在此取景。',
     highlights: ['袁家界（阿凡达悬浮山）', '天子山', '金鞭溪', '天门山玻璃栈道', '百龙天梯'],
-    images: ['/images/zhangjiajie.svg'],
+    images: ['data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzFhNTI3NiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyOTgwYjkiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxjaXJjbGUgY3g9IjQwMCIgY3k9IjE4MCIgcj0iODAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xNSkiLz4KICA8dGV4dCB4PSI0MDAiIHk9IjE4NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSI2NCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjM1KSI+JiN4MUYzRDQ7PC90ZXh0PgogIDx0ZXh0IHg9IjQwMCIgeT0iMzEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIj4/Pz88L3RleHQ+CiAgPHRleHQgeD0iNDAwIiB5PSIzNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC43KSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiPiYjeDRFMkQ7JiN4NTZGRDsmI3g4NDU3OyYjeDU0MEQ7JiN4NjY2RjsmI3g3MEI5OzwvdGV4dD4KPC9zdmc+'],
     transportation: {
       airport: { name: '张家界荷花国际机场', distance: '30公里', duration: '约40分钟车程' },
       train: { nearest_station: '张家界西站', distance: '25公里', duration: '约35分钟车程' },
@@ -190,7 +190,7 @@ export const attractions = [
     description:
       '九寨沟位于四川省阿坝藏族羌族自治州，是世界自然遗产、国家重点风景名胜区。以翠海、叠瀑、彩林、雪峰、蓝冰、藏情六绝闻名，被誉为"人间仙境"、"童话世界"。',
     highlights: ['五花海', '珍珠滩瀑布', '诺日朗瀑布', '长海', '五彩池'],
-    images: ['/images/jiuzhaigou.svg'],
+    images: ['data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzBkNWU4YSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMxZTkwYzQiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxjaXJjbGUgY3g9IjQwMCIgY3k9IjE4MCIgcj0iODAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xNSkiLz4KICA8dGV4dCB4PSI0MDAiIHk9IjE4NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSI2NCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjM1KSI+JiN4MUYzRDQ7PC90ZXh0PgogIDx0ZXh0IHg9IjQwMCIgeT0iMzEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIj4/Pz88L3RleHQ+CiAgPHRleHQgeD0iNDAwIiB5PSIzNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC43KSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiPiYjeDRFMkQ7JiN4NTZGRDsmI3g4NDU3OyYjeDU0MEQ7JiN4NjY2RjsmI3g3MEI5OzwvdGV4dD4KPC9zdmc+'],
     transportation: {
       airport: { name: '九寨黄龙机场', distance: '80公里', duration: '约90分钟车程' },
       train: { nearest_station: '成都东站（需转车）', distance: '约400公里', duration: '约8小时' },
@@ -225,7 +225,7 @@ export const attractions = [
     description:
       '秦始皇兵马俑博物馆位于陕西省西安市临潼区，是世界第八大奇迹。三个兵马俑坑展示了秦始皇陵的宏伟陪葬阵容，气势磅礴，令人震撼，是了解秦朝历史文化的绝佳窗口。',
     highlights: ['一号坑千军万马阵列', '青铜马车', '将军俑', '跪射俑'],
-    images: ['/images/terracotta.svg'],
+    images: ['data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzdkNjYwOCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNiNzk1MGIiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxjaXJjbGUgY3g9IjQwMCIgY3k9IjE4MCIgcj0iODAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xNSkiLz4KICA8dGV4dCB4PSI0MDAiIHk9IjE4NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSI2NCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjM1KSI+JiN4MUYzRDQ7PC90ZXh0PgogIDx0ZXh0IHg9IjQwMCIgeT0iMzEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIj4/Pz88L3RleHQ+CiAgPHRleHQgeD0iNDAwIiB5PSIzNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC43KSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiPiYjeDRFMkQ7JiN4NTZGRDsmI3g4NDU3OyYjeDU0MEQ7JiN4NjY2RjsmI3g3MEI5OzwvdGV4dD4KPC9zdmc+'],
     transportation: {
       airport: { name: '西安咸阳国际机场', distance: '55公里', duration: '约60分钟车程' },
       train: { nearest_station: '西安北站/西安站', distance: '35公里', duration: '约50分钟车程' },
@@ -260,7 +260,7 @@ export const attractions = [
     description:
       '天涯海角位于海南省三亚市，是海南的标志性景区。以天涯石、海角石、南天一柱等巨石景观闻名。碧海蓝天、椰风海韵，是冬季避寒度假的理想之地。',
     highlights: ['天涯石', '海角石', '南天一柱', '椰梦长廊', '海上日落'],
-    images: ['/images/sanya.svg'],
+    images: ['data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzBlNjY1NSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMxN2E1ODkiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxjaXJjbGUgY3g9IjQwMCIgY3k9IjE4MCIgcj0iODAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xNSkiLz4KICA8dGV4dCB4PSI0MDAiIHk9IjE4NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSI2NCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjM1KSI+JiN4MUYzRDQ7PC90ZXh0PgogIDx0ZXh0IHg9IjQwMCIgeT0iMzEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIj4/PzwvdGV4dD4KICA8dGV4dCB4PSI0MDAiIHk9IjM2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjcpIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+JiN4NEUyRDsmI3g1NkZEOyYjeDg0NTc7JiN4NTQwRDsmI3g2NjZGOyYjeDcwQjk7PC90ZXh0Pgo8L3N2Zz4='],
     transportation: {
       airport: { name: '三亚凤凰国际机场', distance: '15公里', duration: '约25分钟车程' },
       train: { nearest_station: '三亚站', distance: '20公里', duration: '约35分钟车程' },
@@ -295,7 +295,7 @@ export const attractions = [
     description:
       '丽江古城位于云南省丽江市，是世界文化遗产。古城以四方街为中心，小桥流水、青石板路、纳西族民居构成了独特的古城风貌。这里也是著名的"艳遇之都"，文艺青年的天堂。',
     highlights: ['四方街', '大水车', '木府', '狮子山万古楼', '酒吧街'],
-    images: ['/images/lijiang.svg'],
+    images: ['data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzZjMzQ4MyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNhNTY5YmQiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxjaXJjbGUgY3g9IjQwMCIgY3k9IjE4MCIgcj0iODAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xNSkiLz4KICA8dGV4dCB4PSI0MDAiIHk9IjE4NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSI2NCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjM1KSI+JiN4MUYzRDQ7PC90ZXh0PgogIDx0ZXh0IHg9IjQwMCIgeT0iMzEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIj4/PzwvdGV4dD4KICA8dGV4dCB4PSI0MDAiIHk9IjM2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjcpIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+JiN4NEUyRDsmI3g1NkZEOyYjeDg0NTc7JiN4NTQwRDsmI3g2NjZGOyYjeDcwQjk7PC90ZXh0Pgo8L3N2Zz4='],
     transportation: {
       airport: { name: '丽江三义国际机场', distance: '28公里', duration: '约40分钟车程' },
       train: { nearest_station: '丽江站', distance: '7公里', duration: '约15分钟车程' },
@@ -330,7 +330,7 @@ export const attractions = [
     description:
       '布达拉宫位于西藏拉萨市，是世界上海拔最高的宏伟建筑群，藏传佛教的圣殿。宫殿依山而建，红白相间，气势雄伟。1994年被列为世界文化遗产，是西藏最神圣的地方。',
     highlights: ['白宫', '红宫', '金顶群', '灵塔殿', '壁画长廊'],
-    images: ['/images/potala.svg'],
+    images: ['data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzhiMDAwMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNjNDFlM2EiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxjaXJjbGUgY3g9IjQwMCIgY3k9IjE4MCIgcj0iODAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xNSkiLz4KICA8dGV4dCB4PSI0MDAiIHk9IjE4NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSI2NCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjM1KSI+JiN4MUYzRDQ7PC90ZXh0PgogIDx0ZXh0IHg9IjQwMCIgeT0iMzEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIj4/Pz8/PC90ZXh0PgogIDx0ZXh0IHg9IjQwMCIgeT0iMzYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuNykiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIj4mI3g0RTJEOyYjeDU2RkQ7JiN4ODQ1NzsmI3g1NDBEOyYjeDY2NkY7JiN4NzBCOTs8L3RleHQ+Cjwvc3ZnPg=='],
     transportation: {
       airport: { name: '拉萨贡嘎国际机场', distance: '60公里', duration: '约70分钟车程' },
       train: { nearest_station: '拉萨站', distance: '8公里', duration: '约20分钟车程' },
