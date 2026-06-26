@@ -120,7 +120,7 @@ export const attractions = [
     description:
       '黄山位于安徽省黄山市，是中国十大名山之一，世界文化与自然双重遗产。以奇松、怪石、云海、温泉、冬雪五绝著称于世，自古有"五岳归来不看山，黄山归来不看岳"的美誉。',
     highlights: ['迎客松', '光明顶日出', '西海大峡谷', '天都峰', '云海奇观'],
-    images: ['https://images.unsplash.com/photo-1537531383496-f4749b88b507?w=800&h=500&fit=crop'],
+    images: ['https://source.unsplash.com/800x500/?huangshan-mountain,china'],
     transportation: {
       airport: { name: '黄山屯溪国际机场', distance: '60公里', duration: '约70分钟车程' },
       train: { nearest_station: '黄山北站', distance: '50公里', duration: '约60分钟车程' },
@@ -155,7 +155,7 @@ export const attractions = [
     description:
       '张家界国家森林公园位于湖南省张家界市，是中国第一个国家森林公园。以独特的石英砂岩峰林地貌著称，三千奇峰拔地而起，被誉为"缩小的仙境，放大的盆景"，《阿凡达》曾在此取景。',
     highlights: ['袁家界（阿凡达悬浮山）', '天子山', '金鞭溪', '天门山玻璃栈道', '百龙天梯'],
-    images: ['https://images.unsplash.com/photo-1528164344705-47542687000d?w=800&h=500&fit=crop'],
+    images: ['https://source.unsplash.com/800x500/?zhangjiajie,mountain,china'],
     transportation: {
       airport: { name: '张家界荷花国际机场', distance: '30公里', duration: '约40分钟车程' },
       train: { nearest_station: '张家界西站', distance: '25公里', duration: '约35分钟车程' },
@@ -225,7 +225,7 @@ export const attractions = [
     description:
       '秦始皇兵马俑博物馆位于陕西省西安市临潼区，是世界第八大奇迹。三个兵马俑坑展示了秦始皇陵的宏伟陪葬阵容，气势磅礴，令人震撼，是了解秦朝历史文化的绝佳窗口。',
     highlights: ['一号坑千军万马阵列', '青铜马车', '将军俑', '跪射俑'],
-    images: ['https://images.unsplash.com/photo-1565967511849-76a60a516170?w=800&h=500&fit=crop'],
+    images: ['https://source.unsplash.com/800x500/?terracotta-warriors,xian,china'],
     transportation: {
       airport: { name: '西安咸阳国际机场', distance: '55公里', duration: '约60分钟车程' },
       train: { nearest_station: '西安北站/西安站', distance: '35公里', duration: '约50分钟车程' },
@@ -260,7 +260,7 @@ export const attractions = [
     description:
       '天涯海角位于海南省三亚市，是海南的标志性景区。以天涯石、海角石、南天一柱等巨石景观闻名。碧海蓝天、椰风海韵，是冬季避寒度假的理想之地。',
     highlights: ['天涯石', '海角石', '南天一柱', '椰梦长廊', '海上日落'],
-    images: ['https://images.unsplash.com/photo-1540202404-a2f29016b523?w=800&h=500&fit=crop'],
+    images: ['https://source.unsplash.com/800x500/?sanya,beach,hainan,china'],
     transportation: {
       airport: { name: '三亚凤凰国际机场', distance: '15公里', duration: '约25分钟车程' },
       train: { nearest_station: '三亚站', distance: '20公里', duration: '约35分钟车程' },
@@ -295,7 +295,7 @@ export const attractions = [
     description:
       '丽江古城位于云南省丽江市，是世界文化遗产。古城以四方街为中心，小桥流水、青石板路、纳西族民居构成了独特的古城风貌。这里也是著名的"艳遇之都"，文艺青年的天堂。',
     highlights: ['四方街', '大水车', '木府', '狮子山万古楼', '酒吧街'],
-    images: ['https://images.unsplash.com/photo-1528323273322-d81458248d40?w=800&h=500&fit=crop'],
+    images: ['https://source.unsplash.com/800x500/?lijiang,old-town,yunnan,china'],
     transportation: {
       airport: { name: '丽江三义国际机场', distance: '28公里', duration: '约40分钟车程' },
       train: { nearest_station: '丽江站', distance: '7公里', duration: '约15分钟车程' },
@@ -330,7 +330,7 @@ export const attractions = [
     description:
       '布达拉宫位于西藏拉萨市，是世界上海拔最高的宏伟建筑群，藏传佛教的圣殿。宫殿依山而建，红白相间，气势雄伟。1994年被列为世界文化遗产，是西藏最神圣的地方。',
     highlights: ['白宫', '红宫', '金顶群', '灵塔殿', '壁画长廊'],
-    images: ['https://images.unsplash.com/photo-1564416438585-7be052b5f131?w=800&h=500&fit=crop'],
+    images: ['https://source.unsplash.com/800x500/?potala-palace,lhasa,tibet'],
     transportation: {
       airport: { name: '拉萨贡嘎国际机场', distance: '60公里', duration: '约70分钟车程' },
       train: { nearest_station: '拉萨站', distance: '8公里', duration: '约20分钟车程' },
