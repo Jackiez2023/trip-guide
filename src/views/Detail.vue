@@ -1,8 +1,17 @@
-﻿<template>
+<template>
   <div class="detail-page" v-if="attraction">
     <div class="detail-header">
       <div class="header-image">
-        <div class="image-placeholder">{{ attraction.name.charAt(0) }}</div>
+        <img
+          v-if="attraction.images && attraction.images.length && !imgFailed"
+          :src="attraction.images[0]"
+          :alt="attraction.name"
+          class="cover-img"
+          @error="onImgError"
+        />
+        <div v-if="!attraction.images || !attraction.images.length || imgFailed" class="image-placeholder">
+          {{ attraction.name.charAt(0) }}
+        </div>
       </div>
       <div class="header-info">
         <h1>{{ attraction.name }}</h1>
@@ -123,12 +132,14 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { attractions } from '../data/attractions'
 
 const route = useRoute()
 const attraction = computed(() => attractions.find(a => a.id === Number(route.params.id)))
+const imgFailed = ref(false)
+function onImgError() { imgFailed.value = true }
 </script>
 
 <style scoped>
@@ -144,6 +155,14 @@ const attraction = computed(() => attractions.find(a => a.id === Number(route.pa
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  overflow: hidden;
+  position: relative;
+}
+.cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .image-placeholder { font-size: 72px; color: rgba(255,255,255,0.5); font-weight: 700; }
 .header-info { flex: 1; }

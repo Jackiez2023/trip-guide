@@ -1,7 +1,14 @@
-﻿<template>
-  <div class="card" @click="$router.push(`/attraction/${attraction.id}`)">
+<template>
+  <div class="card" @click="$router.push('/attraction/' + attraction.id)">
     <div class="card-image">
-      <div class="card-image-placeholder">
+      <img
+        v-if="attraction.images && attraction.images.length && !imgFailed"
+        :src="attraction.images[0]"
+        :alt="attraction.name"
+        class="cover-img"
+        @error="onImgError"
+      />
+      <div v-if="!attraction.images || !attraction.images.length || imgFailed" class="card-image-placeholder">
         <span>{{ attraction.name.charAt(0) }}</span>
       </div>
       <span class="card-region">{{ attraction.region }}</span>
@@ -10,23 +17,26 @@
       <h3 class="card-title">{{ attraction.name }}</h3>
       <p class="card-city">{{ attraction.city }}</p>
       <div class="card-rating">
-        <span class="stars">★</span>
+        <span class="stars">&#9733;</span>
         <span class="score">{{ attraction.rating }}</span>
       </div>
       <div class="card-tags">
         <span class="tag" v-for="tag in attraction.suitable_for" :key="tag">{{ tag }}</span>
       </div>
       <div class="card-footer">
-        <span class="price" v-if="attraction.ticket_price > 0">¥{{ attraction.ticket_price }}</span>
-        <span class="price free" v-else>免费</span>
-        <span class="season">{{ attraction.best_season }}季最佳</span>
+        <span class="price" v-if="attraction.ticket_price > 0">&#165;{{ attraction.ticket_price }}</span>
+        <span class="price free" v-else>&#20813;&#36153;</span>
+        <span class="season">{{ attraction.best_season }}&#23395;&#26368;&#20339;</span>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 defineProps({ attraction: { type: Object, required: true } })
+const imgFailed = ref(false)
+function onImgError() { imgFailed.value = true }
 </script>
 
 <style scoped>
@@ -39,11 +49,17 @@ defineProps({ attraction: { type: Object, required: true } })
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
 }
 .card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
-
 .card-image {
   height: 180px;
   position: relative;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  overflow: hidden;
+}
+.cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .card-image-placeholder {
   width: 100%;
@@ -51,6 +67,8 @@ defineProps({ attraction: { type: Object, required: true } })
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 0; left: 0;
 }
 .card-image-placeholder span {
   font-size: 48px;
@@ -66,6 +84,7 @@ defineProps({ attraction: { type: Object, required: true } })
   padding: 4px 10px;
   border-radius: 4px;
   font-size: 12px;
+  z-index: 1;
 }
 .card-body { padding: 16px; }
 .card-title { font-size: 17px; font-weight: 600; margin-bottom: 4px; }
