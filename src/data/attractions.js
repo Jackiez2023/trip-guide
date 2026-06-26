@@ -15,7 +15,7 @@ export const attractions = [
     description:
       '故宫博物院位于北京市中心，是中国明清两代的皇家宫殿，旧称紫禁城。故宫博物院建立于1925年，是中国最大的古代文化艺术博物馆，收藏有大量古代艺术珍品，是中国古代建筑艺术的精华。',
     highlights: ['世界现存规模最大的古建筑群', '馆藏文物180余万件', '三大殿气势恢宏', '珍宝馆与钟表馆不容错过'],
-    images: ['https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=800&h=500&fit=crop'],
+    images: ['https://images.unsplash.com//images/gugong.svg'],
     transportation: {
       airport: { name: '北京首都国际机场', distance: '30公里', duration: '约50分钟车程' },
       train: { nearest_station: '北京站', distance: '3公里', duration: '约15分钟车程' },
@@ -50,7 +50,7 @@ export const attractions = [
     description:
       '八达岭长城是明长城中保存最完好、最具代表性的一段，位于北京市延庆区。它是万里长城的精华所在，地势险要，城关坚固，被誉为"不到长城非好汉"的打卡胜地。',
     highlights: ['明长城精华段', '好汉坡打卡', '缆车俯瞰全景', '长城博物馆'],
-    images: ['https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800&h=500&fit=crop'],
+    images: ['https://images.unsplash.com//images/badaling.svg'],
     transportation: {
       airport: { name: '北京首都国际机场', distance: '70公里', duration: '约90分钟车程' },
       train: { nearest_station: '八达岭站（S2线）', distance: '步行可达', duration: '约80分钟从市区出发' },
@@ -85,7 +85,7 @@ export const attractions = [
     description:
       '西湖位于浙江省杭州市，是中国十大风景名胜之一，也是世界文化遗产。西湖三面环山，一面临城，湖光山色美不胜收。"欲把西湖比西子，淡妆浓抹总相宜"，苏东坡的诗句道尽了西湖之美。',
     highlights: ['断桥残雪', '苏堤春晓', '三潭印月', '雷峰夕照', '曲院风荷'],
-    images: ['https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?w=800&h=500&fit=crop'],
+    images: ['https://images.unsplash.com//images/xihu.svg'],
     transportation: {
       airport: { name: '杭州萧山国际机场', distance: '30公里', duration: '约50分钟' },
       train: { nearest_station: '杭州东站/杭州站', distance: '市区内', duration: '地铁可达' },
@@ -120,7 +120,7 @@ export const attractions = [
     description:
       '黄山位于安徽省黄山市，是中国十大名山之一，世界文化与自然双重遗产。以奇松、怪石、云海、温泉、冬雪五绝著称于世，自古有"五岳归来不看山，黄山归来不看岳"的美誉。',
     highlights: ['迎客松', '光明顶日出', '西海大峡谷', '天都峰', '云海奇观'],
-    images: ['https://source.unsplash.com/800x500/?huangshan-mountain,china'],
+    images: ['https:///images/huangshan.svg'],
     transportation: {
       airport: { name: '黄山屯溪国际机场', distance: '60公里', duration: '约70分钟车程' },
       train: { nearest_station: '黄山北站', distance: '50公里', duration: '约60分钟车程' },
@@ -155,7 +155,7 @@ export const attractions = [
     description:
       '张家界国家森林公园位于湖南省张家界市，是中国第一个国家森林公园。以独特的石英砂岩峰林地貌著称，三千奇峰拔地而起，被誉为"缩小的仙境，放大的盆景"，《阿凡达》曾在此取景。',
     highlights: ['袁家界（阿凡达悬浮山）', '天子山', '金鞭溪', '天门山玻璃栈道', '百龙天梯'],
-    images: ['https://source.unsplash.com/800x500/?zhangjiajie,mountain,china'],
+    images: ['https:///images/zhangjiajie.svg'],
     transportation: {
       airport: { name: '张家界荷花国际机场', distance: '30公里', duration: '约40分钟车程' },
       train: { nearest_station: '张家界西站', distance: '25公里', duration: '约35分钟车程' },
@@ -190,7 +190,7 @@ export const attractions = [
     description:
       '九寨沟位于四川省阿坝藏族羌族自治州，是世界自然遗产、国家重点风景名胜区。以翠海、叠瀑、彩林、雪峰、蓝冰、藏情六绝闻名，被誉为"人间仙境"、"童话世界"。',
     highlights: ['五花海', '珍珠滩瀑布', '诺日朗瀑布', '长海', '五彩池'],
-    images: ['https://images.unsplash.com/photo-1513415756790-2ac1db1297d0?w=800&h=500&fit=crop'],
+    images: ['https://images.unsplash.com//images/jiuzhaigou.svg'],
     transportation: {
       airport: { name: '九寨黄龙机场', distance: '80公里', duration: '约90分钟车程' },
       train: { nearest_station: '成都东站（需转车）', distance: '约400公里', duration: '约8小时' },
@@ -225,7 +225,7 @@ export const attractions = [
     description:
       '秦始皇兵马俑博物馆位于陕西省西安市临潼区，是世界第八大奇迹。三个兵马俑坑展示了秦始皇陵的宏伟陪葬阵容，气势磅礴，令人震撼，是了解秦朝历史文化的绝佳窗口。',
     highlights: ['一号坑千军万马阵列', '青铜马车', '将军俑', '跪射俑'],
-    images: ['https://source.unsplash.com/800x500/?terracotta-warriors,xian,china'],
+    images: ['https:///images/terracotta.svg'],
     transportation: {
       airport: { name: '西安咸阳国际机场', distance: '55公里', duration: '约60分钟车程' },
       train: { nearest_station: '西安北站/西安站', distance: '35公里', duration: '约50分钟车程' },
@@ -260,7 +260,7 @@ export const attractions = [
     description:
       '天涯海角位于海南省三亚市，是海南的标志性景区。以天涯石、海角石、南天一柱等巨石景观闻名。碧海蓝天、椰风海韵，是冬季避寒度假的理想之地。',
     highlights: ['天涯石', '海角石', '南天一柱', '椰梦长廊', '海上日落'],
-    images: ['https://source.unsplash.com/800x500/?sanya,beach,hainan,china'],
+    images: ['https:///images/sanya.svg'],
     transportation: {
       airport: { name: '三亚凤凰国际机场', distance: '15公里', duration: '约25分钟车程' },
       train: { nearest_station: '三亚站', distance: '20公里', duration: '约35分钟车程' },
@@ -295,7 +295,7 @@ export const attractions = [
     description:
       '丽江古城位于云南省丽江市，是世界文化遗产。古城以四方街为中心，小桥流水、青石板路、纳西族民居构成了独特的古城风貌。这里也是著名的"艳遇之都"，文艺青年的天堂。',
     highlights: ['四方街', '大水车', '木府', '狮子山万古楼', '酒吧街'],
-    images: ['https://source.unsplash.com/800x500/?lijiang,old-town,yunnan,china'],
+    images: ['https:///images/lijiang.svg'],
     transportation: {
       airport: { name: '丽江三义国际机场', distance: '28公里', duration: '约40分钟车程' },
       train: { nearest_station: '丽江站', distance: '7公里', duration: '约15分钟车程' },
@@ -330,7 +330,7 @@ export const attractions = [
     description:
       '布达拉宫位于西藏拉萨市，是世界上海拔最高的宏伟建筑群，藏传佛教的圣殿。宫殿依山而建，红白相间，气势雄伟。1994年被列为世界文化遗产，是西藏最神圣的地方。',
     highlights: ['白宫', '红宫', '金顶群', '灵塔殿', '壁画长廊'],
-    images: ['https://source.unsplash.com/800x500/?potala-palace,lhasa,tibet'],
+    images: ['https:///images/potala.svg'],
     transportation: {
       airport: { name: '拉萨贡嘎国际机场', distance: '60公里', duration: '约70分钟车程' },
       train: { nearest_station: '拉萨站', distance: '8公里', duration: '约20分钟车程' },
